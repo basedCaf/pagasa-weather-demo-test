@@ -46,7 +46,7 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_API_BASE: http://152.142.166.181
+        VITE_API_BASE: http://152.42.166.181
     container_name: pagasa-frontend
     ports:
       - "80:80"
